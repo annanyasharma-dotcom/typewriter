@@ -244,7 +244,7 @@ body {
 .tw-intro {
   position: absolute;
   left: 40px;
-  top: 140px;
+  top: 90px;
   width: 400px;
   z-index: 8;
   pointer-events: none;
@@ -265,12 +265,12 @@ body {
   margin-top: 12px;
   font-size: 14.5px;
   color: var(--graphite);
-  animation: tw-fade 800ms 2800ms both;
+  animation: tw-fade 800ms 4000ms both;
 }
 .tw-intro-arrow {
   position: absolute;
   left: 233px;
-  top: 76px;
+  top: 126px;
   color: rgba(42, 38, 34, 0.72);
 }
 
@@ -281,10 +281,10 @@ body {
 .tw-draw {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
-  animation: tw-draw 1100ms 3000ms var(--ease-slide) forwards;
+  animation: tw-draw 1100ms 4200ms var(--ease-slide) forwards;
 }
 .tw-draw.is-late {
-  animation-delay: 4000ms;
+  animation-delay: 5200ms;
   animation-duration: 300ms;
 }
 
@@ -928,12 +928,14 @@ body {
 }
 .tw-m-intro .tw-intro-title {
   font-size: 21px;
-  top: calc(var(--rail-y) - 250px);
+  top: calc(var(--rail-y) - 300px);
+  padding-inline: 24px;
+  text-wrap: balance;
 }
 .tw-m-intro .tw-intro-sub {
   font-size: 14px;
   top: calc(var(--rail-y) - 212px);
-  animation-delay: 1800ms;
+  animation-delay: 3100ms;
 }
 .tw-m-arrow {
   position: absolute;
@@ -941,8 +943,8 @@ body {
   top: calc(var(--rail-y) - 158px);
   color: rgba(42, 38, 34, 0.7);
 }
-.tw-m-arrow .tw-draw { animation-delay: 2000ms; }
-.tw-m-arrow .tw-draw.is-late { animation-delay: 3000ms; }
+.tw-m-arrow .tw-draw { animation-delay: 3200ms; }
+.tw-m-arrow .tw-draw.is-late { animation-delay: 4200ms; }
 
 .tw-m-rail {
   position: absolute;

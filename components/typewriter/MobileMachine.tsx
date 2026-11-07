@@ -180,7 +180,7 @@ export function MobileMachine({ tw }: { tw: TypewriterState }) {
 
       {empty && (
         <div className="tw-m-intro" aria-hidden="true">
-          <TypedTitle className="tw-intro-title" delay={700} text={returning ? "Welcome back." : "A little space to think."} />
+          <TypedTitle className="tw-intro-title" delay={700} text="happy birthday! you deserve the world :)" />
           <p className="tw-intro-sub">Tap the paper and begin.</p>
           <svg className="tw-m-arrow" viewBox="0 0 120 150" width={120} height={150}>
             <path d="M 96 6 C 128 50, 104 104, 14 140" fill="none" stroke="currentColor" strokeWidth={1.1} strokeLinecap="round" pathLength={1} className="tw-draw" />

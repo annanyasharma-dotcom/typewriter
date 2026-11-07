@@ -183,7 +183,7 @@ export function Machine({ tw }: { tw: TypewriterState }) {
       <div className="tw-stage" style={stageStyle}>
         {/* Introduction, written in the margin of the desk */}
         <div className="tw-intro" data-hidden={started} aria-hidden={started}>
-          <TypedTitle className="tw-intro-title" delay={1500} text={returning ? "Welcome back." : "A little space to think."} />
+          <TypedTitle className="tw-intro-title" delay={1500} text="happy birthday! you deserve the world :)" />
           <p className="tw-intro-sub">
             {returning ? "Your page is where you left it." : "Start typing. The machine is listening."}
           </p>
