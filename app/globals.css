@@ -872,7 +872,7 @@ body {
   z-index: 6;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: max(10px, env(safe-area-inset-top)) 14px 22px 18px;
   background: linear-gradient(180deg, var(--bg) 55%, rgba(235, 229, 216, 0));
   animation: tw-fade 700ms 900ms both;

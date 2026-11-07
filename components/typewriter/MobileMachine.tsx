@@ -153,7 +153,6 @@ export function MobileMachine({ tw }: { tw: TypewriterState }) {
       data-keyboard={keyboardOpen || undefined}
     >
       <header className="tw-m-header">
-        <span className="tw-wordmark">Margin</span>
         <Controls tw={tw} compact showReturn={false} />
       </header>
 
