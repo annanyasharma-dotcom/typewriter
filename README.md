@@ -1,4 +1,4 @@
-# Margin — a little space to think
+# Typewriter
 
 An interactive vintage typewriter for the web. The whole site *is* the machine: type on your keyboard (or click its keys) and the carriage steps along, the typebar swings up, the ribbon lifts, and ink lands on a sheet of paper that feeds line by line.
 

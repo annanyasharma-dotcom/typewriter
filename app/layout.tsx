@@ -28,11 +28,11 @@ const sans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Margin — a little space to think",
+  title: "Typewriter",
   description: "A vintage typewriter, on the web. Sit down, roll in a sheet, and write.",
-  applicationName: "Margin",
+  applicationName: "Typewriter",
   openGraph: {
-    title: "Margin — a little space to think",
+    title: "Typewriter",
     description: "A vintage typewriter, on the web. Sit down, roll in a sheet, and write.",
     type: "website",
   },

@@ -162,18 +162,18 @@ export const Body = memo(function Body() {
       <Spool cx={214} cy={580} />
       <Spool cx={826} cy={580} />
 
-      {/* Nameplate — the machine's (invented) maker */}
-      <rect x={462} y={636} width={116} height={14} rx={2} fill="url(#tw-badge)" />
+      {/* Nameplate */}
+      <rect x={448} y={636} width={144} height={14} rx={2} fill="url(#tw-badge)" />
       <text
         x={520}
         y={646.6}
         textAnchor="middle"
         fontSize={9.5}
-        letterSpacing={5}
+        letterSpacing={3.5}
         fill="url(#tw-badge-text)"
         style={{ fontFamily: "var(--font-display)" }}
       >
-        MARGIN
+        TYPEWRITER
       </text>
 
       {/* Capsule — an homage to the reference; its dots report save status */}

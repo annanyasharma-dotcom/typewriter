@@ -33,7 +33,7 @@ export function Typewriter() {
 
   return (
     <main className="tw-root" data-ready={ready || undefined}>
-      <h1 className="sr-only">Margin — a typewriter for the web</h1>
+      <h1 className="sr-only">Typewriter</h1>
       <p className="sr-only">
         Type with your keyboard to write on the page. Enter returns the carriage, Backspace steps back. Your writing is
         saved in this browser.
